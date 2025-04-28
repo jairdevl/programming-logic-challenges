@@ -15,7 +15,6 @@ class WineManagement:
         self.sales = []
 
     def add_wine(self, name, variety, year, region, price):
-        # Validates
         if not isinstance(year, int) or year <= 0:
             print("Error: Year in the harvest must be a positive integer. ")
             return
