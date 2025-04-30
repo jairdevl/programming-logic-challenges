@@ -49,7 +49,7 @@ class OrderManagementSystem:
     def change_order_status(self, order_id, new_status):
         if order_id < len(self.orders):
             self.orders[order_id].status = new_status
-            print(f"Order {order_id} status changed to '{new_status}'.")
+            print(f"Order {order_id} status changed to '{new_status}'")
         else:
             print("Error: Invalid order ID.")
 
