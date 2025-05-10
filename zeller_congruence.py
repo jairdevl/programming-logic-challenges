@@ -1,3 +1,4 @@
+# Zeller's Congruence Algorithm
 def zeller_congruence(day, month, year):
     if month < 3:
         month += 12
@@ -10,4 +11,5 @@ def zeller_congruence(day, month, year):
     h = (q +(13*(m+1))// 5 + k + k//4 + j//4-2*j)%7
     return h
 
+# Example usage 
 print(f"h= {zeller_congruence(6, 9, 2010)}")
