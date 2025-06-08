@@ -110,6 +110,42 @@ Algoritmo para dibujar una escalera con caracteres ASCII.
 
 Implementación del algoritmo de congruencia de Zeller para determinar el día de la semana para una fecha dada.
 
+---
+
+### 🧩 Retos de Lógica Recientes
+
+#### Números Primos
+`prime_numbers.py`
+
+Verifica si un número ingresado por el usuario es primo y muestra el proceso paso a paso.
+
+```python
+Enter a number: 7
+Is 7 divisible by 2?
+Is 7 divisible by 3?
+7 is prime
+```
+
+#### Palíndromo
+`palindrome.py`
+
+Determina si una cadena de texto es un palíndromo (se lee igual al derecho y al revés, ignorando mayúsculas y espacios).
+
+```python
+Enter a text string: anita lava la tina
+It's a palindrome!
+```
+
+#### Suma de Dígitos
+`add_digits.py`
+
+Suma todos los dígitos de un número entero positivo ingresado por el usuario.
+
+```python
+Enter a positive integer: 1234
+10
+```
+
 
 ## 👨‍💻 Contribución
 
